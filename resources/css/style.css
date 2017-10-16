@@ -1,0 +1,180 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+}
+
+a {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  padding: 0px 0px;
+  margin: 0px 20px;
+  text-decoration: underline;
+}
+
+h2,
+h4 {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3,
+h5 {
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  display: inline-block;
+  top: 10px;
+  position: relative;
+}
+
+.logodiv {
+  display: inline-block;
+}
+
+.header {
+  position: fixed;
+  border-bottom: 1px solid white;
+  color: white;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
+  top: 0px;
+}
+
+.main {
+  position:absolute;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  top: 70px;
+  flex-direction: column;
+}
+
+.our {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: black;
+  z-index: 5;
+  height: auto;
+  width: 1200px;
+}
+
+.tearow1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.tearow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tea1,
+.tea2 {
+  padding-right:50px;
+}
+
+.tea4 {
+    padding-right:50px;
+}
+
+.teaimg {
+  max-height: 200px;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  width:auto;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.loc1,
+.loc2,
+.loc3 {
+  background-color: black;
+  width:300px;
+  height: 300px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.loc1,
+.loc2 {
+  margin-right: 40px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.contact {
+  height: 200px;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin:auto auto;
+}
+
+#featured {
+  position: relative;
+  padding-top: 69px;
+  width: 1000px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px;
+}
+
+#loc {
+  margin-top: 50px;
+}
+
+h5#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
